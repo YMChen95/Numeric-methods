@@ -1,0 +1,6 @@
+exercise1:
+for m=0.5, n=5 might be a good fit with error with 0.0024, and for m=1,n=6 might be a good fit with error with 0.0015.
+for m=2, n= 9 would be a good fit with error with 0.005
+for m=3 n=10 would be a good fit with error with 0.0638
+
+we can see that as the m goes to be larger, in order to have a smaller error, we may want use a larger n value to fit in with less error.

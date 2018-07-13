@@ -1,0 +1,10 @@
+Exc 2:
+Changing a will change the frequency of the image, and changing b will change the speed of the image while maintaining the frequency.
+
+Exc 3:
+
+If the Y values growth to be a very large number, image motion will become more hard to observe. This is because the Taylor expansion works well when du and dv are very small. Large Y will generate large du and dv, so it doesn’t work. Image with clear edge will have meaningful gradient so the procedure works. If the image doesn’t have clear edge( a extreme example is a totally black image) will have some trival gradient(like all 0 gradient for a all black image), we can’t see any motion, the procedure doesn’t work.
+
+
+Exc 6:
+The linear interpolation still can estimate the Y value even after we droped few points, but it is getting worse fro estimating if we drop too many points. Therefore the images and graphs follow the general trend (ie the pictures look very similar and the graphs follow the same general flow of the data) but there is still a noticable difference (most noticeably in the graphs).

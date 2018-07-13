@@ -1,0 +1,10 @@
+clear all;
+close all;
+
+m = 2;
+x = 0:0.5:m*pi;
+y=sin(x);
+n=5;
+
+X_new = (0:0.1:2^(1/n)*m*pi)';
+Y = polynomial_interp(x,y,X_new,n);
